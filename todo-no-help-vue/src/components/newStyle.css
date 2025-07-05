@@ -1,0 +1,183 @@
+body {
+    background-color: #963484;
+    color:white;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+
+#main-heading {
+    margin: 20px;
+    text-align: center;
+}
+
+#todo-list {
+    background-color: #60afff;
+    margin: auto;
+    list-style-type: none;
+    text-align: center;
+    border: 2px solid #3066BE;
+    max-width: 600px;
+    height: auto;
+    padding: 50px;
+    box-shadow: 8px 8px #3066BE;
+    border-radius: 5px;
+}
+
+#todo-list li {
+    background-color: #28C2FF;
+    color: white;
+    margin: auto;
+    margin-top: 8px;
+    border: 2px solid #3066BE;
+    height: auto;
+    box-shadow: 8px 8px #3066BE;
+    border-radius: 5px;
+    width: 500px;
+    text-align: center;
+}
+
+#todo-list li div {
+    padding: 20px;
+}
+
+#todo-list li div p.action{
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: 2px solid #3066BE;
+    padding: 20px;
+    box-shadow: 8px 8px #3066BE;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.done {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.done-checkbox {
+    margin: 0px;
+    text-align: right;
+}
+
+.edit-input {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 8px 8px #3066BE;
+    border-radius: 5px;
+    width: 90%;
+}
+
+button {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #3066BE;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 8px 8px #3066BE;
+    width: 90px;
+    height: 62px;
+    margin-left: 2px;
+    color: white;
+    font-weight: 700;
+}
+
+#filter-buttons  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#filter-buttons button {
+    padding: 20px;
+    border: 2px solid #3066BE;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 8px 8px #3066BE;
+    width: 100%;
+    height: 62px;
+    margin-left: 2px;
+    color: white;
+    font-weight: 700;
+    background-color: #28C2FF;
+}
+
+#filter-buttons button:hover {
+    background-color: #3066BE;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button.edit-button {
+    background-color: orange;
+}
+
+button.edit-button:hover {
+    background-color: darkorange;
+}
+
+button.delete-button {
+    background-color: red;
+}
+
+button.delete-button:hover {
+    background-color: darkred;
+}
+
+.save-button {
+    background-color: green;
+}
+
+.save-button:hover {
+    background-color: darkgreen;
+}
+
+
+#form-input {
+    text-align: center;
+    border: 2px solid #3066BE;
+    box-shadow: 10px 10px #3066BE;
+    margin: auto;
+    max-width: 500px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #60afff;
+    border-radius: 5px;
+}
+
+#form-input label{
+    padding: 8px;
+    font-size: 20px;
+}
+
+#form-input input{
+    margin: 10px;
+    padding: 8px;
+    width: 80%;
+    box-shadow: 8px 8px #3066BE;
+    border: 2px solid #3066BE;
+    border-radius: 5px;
+}
+
+#form-input button{
+    margin: auto;
+    display: block;
+    width: 80%;
+    background-color: lightgreen;
+}
+
+#form-input button:hover{
+    background-color: lightseagreen;
+}
+
+.active-filter {
+    background-color: #963484 !important;
+}
